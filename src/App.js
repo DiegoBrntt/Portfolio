@@ -1,13 +1,27 @@
-import React, { Component } from "react"
+import React, { Component } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import NavHome from "./components/navBar.component";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import Skills from "./components/skills.component";
+
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>Hola Mundo</h1>
+      <div className="w-100">
+        <Router>
+          <NavHome />
+          <br />
+          <Routes>
+            <Route path="/" element={<Skills />} />
+          </Routes>
+        </Router>
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;
