@@ -6,7 +6,7 @@ class NavHome extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand navbar-dark bg-dark">
         <Link className="navbar-brand mx-2">
           <i class="bi bi-briefcase ml-2"></i>  Portfolio
         </Link>
