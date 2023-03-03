@@ -7,118 +7,102 @@ class Skills extends Component {
         <h1 className="text-center text-decoration-underline">SKILLS</h1>
         <br />
         <br />
-        <div className="table-responsive">
-          <table className="table table-bordered b-2 text-center">
-            <thead>
-              <tr className="bg-dark text-white">
-                <th className="w-33">
-                  <i className="bi bi-database fw-bold"></i>
-                  <div>Backend</div>
-                </th>
-                <th className="w-33">
-                  <i className="bi bi-laptop fw-bold"></i>
-                  <div>Frontend</div>
-                </th>
-                <th className="w-33">
-                  <i className="bi bi-pc-display fw-bold"></i>
-                  <div>More</div>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="w-33">
-                  <ul className="list-group list-group-flush">
-                    <li className="list-group-item">
-                      <div className="fw-bold text-decoration-underline"> JAVA (7-11) </div>
-                      <div>SpringMVC - Spring Boot - Hibernate - Servlets</div>
-                      <div className="col border bg-success text-white">Advanced</div>
-                    </li>
-                    <li className="list-group-item">
-                      <div className="fw-bold text-decoration-underline"> C# </div>
-                      <div>.NET - ASP.NET - Dapper - Entity FrameWork</div>
-                      <div className="col border bg-success text-white">Advanced</div>
-                    </li>
-                    <li className="list-group-item">
-                      <div className="fw-bold text-decoration-underline"> Clojure </div>
-                      <div>Tadam</div>
-                      <div className="col border bg-success text-white">Advanced</div>
-                    </li>
-                    <li className="list-group-item">
-                      <div className="fw-bold text-decoration-underline"> Javascript </div>
-                      <div>Node - Express - Mongo - MySQL - Sequelize</div>
-                      <div className="col border bg-success text-white">Advanced</div>
-                    </li>
-                    <li className="list-group-item">
-                      <div className="fw-bold text-decoration-underline"> C </div>
-                      <div className="col border bg-success text-white">Advanced</div>
-                    </li>
-                    <li className="list-group-item">
-                      <div className="fw-bold text-decoration-underline"> C++ </div>
-                      <div className="col border bg-success text-white">Advanced</div>
-                    </li>
-                    <li className="list-group-item">
-                      <div className="fw-bold text-decoration-underline"> SQL </div>
-                      <div>MySQL - SQLite - SQL Server</div>
-                      <div className="col border bg-warning">Intermediate</div>
-                    </li>
-                  </ul>
-                </td>
-                <td className="w-33">
-                  <ul className="list-group list-group-flush">
-                    <li className="list-group-item">
-                      <div className="fw-bold text-decoration-underline"> JAVA (7-11) </div>
-                      <div>JPA - Thymeleaf</div>
-                      <div className="col border bg-warning">Intermediate</div>
-                    </li>
-                    <li className="list-group-item">
-                      <div className="fw-bold text-decoration-underline"> Javascript </div>
-                      <div>React</div>
-                      <div className="col border bg-warning">Intermediate</div>
-                    </li>
-                    <li className="list-group-item">
-                      <div className="fw-bold text-decoration-underline"> CSS </div>
-                      <div>Bootstrap</div>
-                      <div className="col border bg-warning">Intermediate</div>
-                    </li>
-                    <li className="list-group-item">
-                      <div className="fw-bold text-decoration-underline"> C# (HTMLCS) </div>
-                      <div>Razor</div>
-                      <div className="col border bg-warning">Intermediate</div>
-                    </li>
-                    <li className="list-group-item">
-                      <div className="fw-bold text-decoration-underline"> HTML </div>
-                      <div className="col border bg-warning">Intermediate</div>
-                    </li>
-                  </ul>
-                </td>
-                <td className="w-33">
-                  <ul className="list-group list-group-flush">
-                    <li className="list-group-item">
-                      <div className="fw-bold text-decoration-underline"> Programming Paradigms </div>
-                      <div>Structured -  Object Oriented - Functional</div>
-                      <div className="col border bg-success text-white">Advanced</div>
-                    </li>
-                    <li className="list-group-item">
-                      <div className="fw-bold text-decoration-underline"> Diagrams </div>
-                      <div>UML</div>
-                      <div className="col border bg-success text-white">Advanced</div>
-                    </li>
-                    <li className="list-group-item">
-                      <div className="fw-bold text-decoration-underline"> Data Structure </div>
-                      <div>Linked List (simple - double) - Circle Linked List (simple - double) - Stack - Queue - Trees</div>
-                      <div className="col border bg-success text-white">Advanced</div>
-                    </li>
-                    <li className="list-group-item">
-                      <div className="fw-bold text-decoration-underline"> Video game development </div>
-                      <div>Unity3D</div>
-                      <div className="col border bg-warning">Intermediate</div>
-                    </li>
-                  </ul>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+        <div className="accordion" id="accordionExample">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingOne">
+              <button
+                className="accordion-button bg-dark text-white text-align-middle"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <i class="bi bi-database mx-1"></i> <span className="fw-bolder">BACKEND</span>
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              className="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div className="accordion-body bg-light">
+                <span className="fw-bolder mx-1">Languages: </span> Java (7-11), C, C#, C++, Clojure, Javascript, SQL.
+                <br />
+                <br/> 
+                <span className="fw-bolder mx-1">JAVA</span> - Spring Boot, Spring MVC, Hibernate.  <i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star"></i><br/>
+                <span className="fw-bolder mx-1">C#</span> - .NET, ASP.NET, Entity Framework, Dapper. <i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star"></i><br/>
+                <span className="fw-bolder mx-1">Javascript</span> - Node, Express, Sequelize, mongoose. <i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star"></i><i className="bi bi-star"></i><br/>
+                <span className="fw-bolder mx-1">DB</span> - MongoDB, MySQL, SQLite, SQL Server. <i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star"></i><br/>
+                <span className="fw-bolder mx-1">Clojure</span> - Tadam. <i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star"></i><i className="bi bi-star"></i><br/>
+              </div>
+            </div>
+          </div>
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingTwo">
+              <button
+                className="accordion-button collapsed bg-dark text-white text-align-middle"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                <i class="bi bi-laptop mx-1"></i> <span className="fw-bolder">FRONTEND</span>
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              className="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div className="accordion-body bg-light">
+                <strong>This is the second item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the{" "}
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingThree">
+              <button
+                className="accordion-button collapsed bg-dark text-white text-align-middle"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                <i class="bi bi-pc-display mx-1"></i> <span className="fw-bolder">MORE</span>
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              className="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div className="accordion-body bg-light">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the{" "}
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
