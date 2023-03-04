@@ -15,9 +15,7 @@ class App extends Component {
         <Router>
           <NavHome />
           <br />
-          <Routes>
-            <Route path="/" element={<Skills />} />
-          </Routes>
+          <Skills />
         </Router>
       </div>
     );
