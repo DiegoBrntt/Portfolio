@@ -18,7 +18,8 @@ class Skills extends Component {
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-                <i class="bi bi-database mx-1"></i> <span className="fw-bolder">BACKEND</span>
+                <i class="bi bi-database mx-1"></i>{" "}
+                <span className="fw-bolder">BACKEND</span>
               </button>
             </h2>
             <div
@@ -28,14 +29,71 @@ class Skills extends Component {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body bg-light">
-                <span className="fw-bolder mx-1">Languages: </span> Java (7-11), C, C#, C++, Clojure, Javascript, SQL.
+                <span className="fw-bolder mx-1">Languages: </span> Java (7-11),
+                C, C#, C++, Clojure, Javascript, SQL.
                 <br />
-                <br/> 
-                <span className="fw-bolder mx-1">JAVA</span> - Spring Boot, Spring MVC, Hibernate.  <i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star"></i><br/>
-                <span className="fw-bolder mx-1">C#</span> - .NET, ASP.NET, Entity Framework, Dapper. <i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star"></i><br/>
-                <span className="fw-bolder mx-1">Javascript</span> - Node, Express, Sequelize, mongoose. <i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star"></i><i className="bi bi-star"></i><br/>
-                <span className="fw-bolder mx-1">DB</span> - MongoDB, MySQL, SQLite, SQL Server. <i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star"></i><br/>
-                <span className="fw-bolder mx-1">Clojure</span> - Tadam. <i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star-fill text-warning"></i><i className="bi bi-star"></i><i className="bi bi-star"></i><br/>
+                <br />
+                <span className="fw-bolder text-decoration-underline">
+                  JAVA 
+                  <span className="mx-2">
+                  <i className="bi bi-star-fill text-warning"></i>
+                  <i className="bi bi-star-fill text-warning"></i>
+                  <i className="bi bi-star-fill text-warning"></i>
+                  <i className="bi bi-star-fill text-warning"></i>
+                  <i className="bi bi-star"></i>
+                  </span>
+                  
+                </span>{" "}
+                <br /> 
+                Spring Boot, Spring MVC, Hibernate.
+                <br />
+                <span className="fw-bolder text-decoration-underline">
+                  C#
+                  <span className="mx-2">
+                  <i className="bi bi-star-fill text-warning"></i>
+                  <i className="bi bi-star-fill text-warning"></i>
+                  <i className="bi bi-star-fill text-warning"></i>
+                  <i className="bi bi-star-fill text-warning"></i>
+                  <i className="bi bi-star"></i>
+                  </span>
+                </span>
+                <br/> .NET, ASP.NET, Entity Framework, Dapper.<br/>{" "}
+                
+                <span className="fw-bolder text-decoration-underline">
+                  Javascript
+                  <span className="mx-2">
+                  <i className="bi bi-star-fill text-warning"></i>
+                  <i className="bi bi-star-fill text-warning"></i>
+                  <i className="bi bi-star-fill text-warning"></i>
+                  <i className="bi bi-star"></i>
+                  <i className="bi bi-star"></i>
+                  </span>
+                </span> <br/> Node, Express,
+                Sequelize, mongoose. <br/>{" "}
+                <span className="fw-bolder text-decoration-underline">
+                  DB
+                  <span className="mx-2">
+                  <i className="bi bi-star-fill text-warning"></i>
+                  <i className="bi bi-star-fill text-warning"></i>
+                  <i className="bi bi-star-fill text-warning"></i>
+                  <i className="bi bi-star"></i>
+                  <i className="bi bi-star"></i>
+                  </span>
+                </span>
+                <br/> MongoDB, MySQL, SQLite,
+                SQL Server. <br/>
+                <span className="fw-bolder text-decoration-underline">
+                  Clojure{" "}
+                  <span className="mx-2">
+                  <i className="bi bi-star-fill text-warning"></i>
+                  <i className="bi bi-star-fill text-warning"></i>
+                  <i className="bi bi-star-fill text-warning"></i>
+                  <i className="bi bi-star-fill text-warning"></i>
+                  <i className="bi bi-star"></i>
+                  </span>
+                </span> 
+                <br/> Tadam.{" "}
+                <br />
               </div>
             </div>
           </div>
@@ -49,7 +107,8 @@ class Skills extends Component {
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                <i class="bi bi-laptop mx-1"></i> <span className="fw-bolder">FRONTEND</span>
+                <i class="bi bi-laptop mx-1"></i>{" "}
+                <span className="fw-bolder">FRONTEND</span>
               </button>
             </h2>
             <div
@@ -81,7 +140,8 @@ class Skills extends Component {
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                <i class="bi bi-pc-display mx-1"></i> <span className="fw-bolder">MORE</span>
+                <i class="bi bi-pc-display mx-1"></i>{" "}
+                <span className="fw-bolder">MORE</span>
               </button>
             </h2>
             <div
