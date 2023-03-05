@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 import laptop from "../components/imagenes/laptop wave.png";
 import surf from "../components/imagenes/surfing the net.png";
-import arreglo from "../components/imagenes/control z.png";
 import porta from "../components/imagenes/going to work happy.png";
 
 class Welcome extends Component {
