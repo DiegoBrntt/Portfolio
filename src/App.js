@@ -4,6 +4,7 @@ import NavHome from "./components/navBar.component";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Skills from "./components/skills.component";
+import Welcome from "./components/welcome.component";
 
 
 
@@ -12,7 +13,9 @@ class App extends Component {
     return (
       <div className="w-100">
           <NavHome />
-          <br />
+          <Welcome />
+          
+          <br/>
           <Skills />
       </div>
     );

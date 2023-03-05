@@ -4,7 +4,7 @@ class Skills extends Component {
   render() {
     return (
       <div>
-        <h1 className="text-center text-decoration-underline">SKILLS</h1>
+        <h1 className="text-center text-decoration-underline">HABILIDADES</h1>
         <br />
         <br />
         <div className="accordion" id="accordionExample">
@@ -41,7 +41,7 @@ class Skills extends Component {
                 </span> 
                 <br /> 
                 Structured, Object Oriented Programming, and Functional Programming.
-                <br />
+                <hr />
                 <span className="fw-bolder text-decoration-underline">
                   JAVA 
                   <span className="mx-2">
@@ -55,7 +55,7 @@ class Skills extends Component {
                 </span>{" "}
                 <br /> 
                 Spring Boot, Spring MVC, Hibernate.
-                <br />
+                <hr />
                 <span className="fw-bolder text-decoration-underline">
                   C#
                   <span className="mx-2">
@@ -66,7 +66,7 @@ class Skills extends Component {
                   <i className="bi bi-star"></i>
                   </span>
                 </span>
-                <br/> .NET, ASP.NET, Entity Framework, Dapper, Unity3D.<br/>{" "}
+                <br/> .NET, ASP.NET, Entity Framework, Dapper, Unity3D.<hr/>{" "}
                 <span className="fw-bolder text-decoration-underline">
                   C/C++{" "}
                   <span className="mx-2">
@@ -78,7 +78,7 @@ class Skills extends Component {
                   </span>
                 </span>
                 <br/> Files, Data Structures, Algorithms.{" "}
-                <br />
+                <hr />
                 <span className="fw-bolder text-decoration-underline">
                   Clojure{" "}
                   <span className="mx-2">
@@ -90,7 +90,7 @@ class Skills extends Component {
                   </span>
                 </span> 
                 <br/> Tadam.{" "}
-                <br />
+                <hr />
                 <span className="fw-bolder text-decoration-underline">
                   Javascript
                   <span className="mx-2">
@@ -101,7 +101,7 @@ class Skills extends Component {
                   <i className="bi bi-star"></i>
                   </span>
                 </span> <br/> Node, Express,
-                Sequelize, mongoose. <br/>{" "}
+                Sequelize, mongoose. <hr/>{" "}
                 <span className="fw-bolder text-decoration-underline">
                   DB
                   <span className="mx-2">
@@ -113,7 +113,7 @@ class Skills extends Component {
                   </span>
                 </span>
                 <br/> MongoDB, MySQL, SQLite,
-                SQL Server. <br/>
+                SQL Server. <hr/>
                 <span className="fw-bolder text-decoration-underline">
                   NASM{" "}
                   <span className="mx-2">
