@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import laptop from "../components/imagenes/laptop wave.png";
+import laptop from "../components/imagenes/imagen.png";
 import surf from "../components/imagenes/surfing the net.png";
 import porta from "../components/imagenes/going to work happy.png";
 
@@ -40,25 +40,7 @@ class Welcome extends Component {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              
-              <div className="row bg-primary">
-                <div className="col text-center">
-                  <img src={laptop} className="w-50" alt="laptop" />
-                </div>
-                <div className="col position-relative">
-                    <p className="h6 position-absolute top-50 start-50 translate-middle">
-                      <span className="h1">¡Saludos, has llegado a mi página!</span>
-                      <br/>
-                      <br/>
-                      Mi nombre es Diego Brunetti y soy desarrollador web con
-                      mejor desempeño dentro del area de backend. Poseo fuertes
-                      conocimientos acerca de paradigmas de la programación lo
-                      que me permite adaptarme facilmente a nuevas tecnologias
-                      para desarrollar una solución en base a los requerimientos
-                      del proyecto.
-                    </p>
-                </div>
-              </div>
+                  <img src={laptop} className="d-block w-100" alt="laptop" />
             </div>
             <div className="carousel-item">
             <div className="row bg-success">
