@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import laptop from "../components/imagenes/imagen.png";
-import surf from "../components/imagenes/surfing the net.png";
+import surf from "../components/imagenes/imagen2.png";
 import porta from "../components/imagenes/going to work happy.png";
 
 class Welcome extends Component {
@@ -43,18 +43,7 @@ class Welcome extends Component {
                   <img src={laptop} className="d-block w-100" alt="laptop" />
             </div>
             <div className="carousel-item">
-            <div className="row bg-success">
-                <div className="col position-relative">
-                    <p className="h5 text-white position-absolute top-50 start-50 translate-middle">
-                      En esta pagina podras conocer acerca de mis habilidades y
-                      proyectos. Tambien encontrara informacion acerca de mi formación 
-                      academica.
-                    </p>
-                </div>
-                <div className="col text-center">
-                  <img src={surf} className="w-100" alt="surf" />
-                </div>
-              </div>
+                  <img src={surf} className="d-block w-100" alt="surf" />
             </div>
             <div className="carousel-item">
             <div className="row bg-primary">
