@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import laptop from "../components/imagenes/imagen.png";
 import surf from "../components/imagenes/imagen2.png";
-import porta from "../components/imagenes/going to work happy.png";
+import porta from "../components/imagenes/imagen3.png";
 
 class Welcome extends Component {
   render() {
@@ -47,16 +47,8 @@ class Welcome extends Component {
             </div>
             <div className="carousel-item">
             <div className="row bg-primary">
-                <div className="col text-center">
-                  <img src={porta} className="w-100" alt="portafolio" />
-                </div>
-                <div className="col position-relative">
-                    <p className="h5 position-absolute top-50 start-50 translate-middle">
-                      Podras visitar los repositorios de algunos de mi proyectos para 
-                      observar un poco de mis habilidades. Y acceder a algunos otros que ya esten
-                      desplegados
-                    </p>
-                </div>
+                  <img src={porta} className="d-block w-100" alt="portafolio" />
+                
               </div>
             </div>
           </div>
