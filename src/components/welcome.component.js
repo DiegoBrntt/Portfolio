@@ -42,7 +42,7 @@ class Welcome extends Component {
                   <h1 className="text-decoration-underline">
                     ¡Saludos, has llegado a mi página!
                   </h1>
-                  <img src={laptop} className="w-50 text-center" alt="laptop" />
+                  <img src={laptop} className="w-100 text-center" alt="laptop" />
                   
                 </div>
                 <div className="col text-center">
