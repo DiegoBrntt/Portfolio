@@ -3,11 +3,15 @@ import React, { Component } from "react";
 import laptop from "../components/imagenes/laptop wave.png";
 import surf from "../components/imagenes/surfing the net.png";
 import arreglo from "../components/imagenes/control z.png";
+import porta from "../components/imagenes/going to work happy.png";
 
 class Welcome extends Component {
   render() {
     return (
       <>
+        <h1 className="text-center">PORTAFOLIO</h1>
+        
+        
         <div
           id="carouselExampleIndicators"
           className="carousel slide"
@@ -37,47 +41,50 @@ class Welcome extends Component {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
+              <h1 className="text-center bg-primary p-0 m-0 text-decoration-underline">
+                ¡Saludos, has llegado a mi página!
+              </h1>
               <div className="row bg-primary">
                 <div className="col text-center">
-                  <h1 className="text-decoration-underline">
-                    ¡Saludos, has llegado a mi página!
-                  </h1>
-                  <img src={laptop} className="w-100 text-center" alt="laptop" />
-                  
+                  <img src={laptop} className="w-100" alt="laptop" />
+                </div>
+                <div className="col position-relative">
+                    <p className="h3 position-absolute top-50 start-50 translate-middle">
+                      Mi nombre es Diego Brunetti y soy desarrollador web con
+                      mejor desempeño dentro del area de backend. Poseo fuertes
+                      conocimientos acerca de paradigmas de la programación lo
+                      que me permite adaptarme facilmente a nuevas tecnologias
+                      para desarrollar una solución en base a los requerimientos
+                      del proyecto.
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div className="carousel-item">
+            <div className="row bg-success">
+                <div className="col position-relative">
+                    <p className="h3 text-white position-absolute top-50 start-50 translate-middle">
+                      En esta pagina podras conocer acerca de mis habilidades y
+                      proyectos. Tambien encontrara informacion acerca de mi formación 
+                      academica.
+                    </p>
                 </div>
                 <div className="col text-center">
-                  
-
+                  <img src={surf} className="w-100" alt="surf" />
                 </div>
               </div>
             </div>
             <div className="carousel-item">
             <div className="row bg-primary">
                 <div className="col text-center">
-                  <h1 className="text-decoration-underline">
-                    ¡Saludos, has llegado a mi página!
-                  </h1>
-                  <img src={surf} className="w-50 text-center" alt="surf" />
-                  
+                  <img src={porta} className="w-100" alt="portafolio" />
                 </div>
-                <div className="col text-center">
-                  
-
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-            <div className="row bg-primary">
-                <div className="col text-center">
-                  <h1 className="text-decoration-underline">
-                    ¡Saludos, has llegado a mi página!
-                  </h1>
-                  <img src={arreglo} className="w-50 text-center" alt="arreglo" />
-                  
-                </div>
-                <div className="col text-center">
-                  
-
+                <div className="col position-relative">
+                    <p className="h3 position-absolute top-50 start-50 translate-middle">
+                      Podras visitar los repositorios de algunos de mi proyectos para 
+                      observar un poco de mis habilidades. Y acceder a algunos otros que ya esten
+                      desplegados
+                    </p>
                 </div>
               </div>
             </div>
