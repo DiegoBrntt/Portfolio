@@ -16,11 +16,12 @@ class App extends Component {
       <div className="w-100">
           <NavHome />
           <Welcome />
+          <Skills />
           <Grid />
           <br/>
           <Proyecto />
           <br/>
-          <Skills />
+          
       </div>
     );
   }

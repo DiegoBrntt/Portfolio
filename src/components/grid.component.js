@@ -60,13 +60,13 @@ class Grid extends Component {
               </div>
             </div>
           </div>
-          <div className="accordion bg-light" id="accordionExample">
+          <div className="accordion bg-light" id="accordionGrid">
             <div className="accordion-item border-0">
               <div
-                id="collapseOne"
+                id="collapseGrid"
                 className="accordion-collapse collapse"
                 aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample"
+                data-bs-parent="#accordionGrid"
               >
                 <div className="accordion-body bg-light">
                   <div className="row show text-center">
@@ -154,10 +154,10 @@ class Grid extends Component {
               </div>
               <h2 className="accordion-header text-center bg-light" id="headingOne">
                 <button
-                  className="btn btn-lg btn-secondary my-1"
+                  className="btn btn-lg btn-primary m-2"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne"
+                  data-bs-target="#collapseGrid"
                   aria-expanded="false"
                   aria-controls="collapseOne"
                   onClick={this.handleMsg}

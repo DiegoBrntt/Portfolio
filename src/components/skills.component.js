@@ -5,8 +5,8 @@ class Skills extends Component {
     return (
       <div>
         <h1 className="text-center text-decoration-underline">HABILIDADES</h1>
-        <br />
-        <br />
+        <br/>
+        <br/>
         <div className="accordion" id="accordionExample">
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingOne">
@@ -211,6 +211,7 @@ class Skills extends Component {
           </div>
           
         </div>
+        <br/>
       </div>
     );
   }
