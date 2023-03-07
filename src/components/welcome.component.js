@@ -10,7 +10,7 @@ class Welcome extends Component {
     return (
       <>
         <div className="text-center">
-                    <img src={titulo} className="w-25" alt="titulo" />
+          <img src={titulo} className="w-25" alt="titulo" />
         </div>
         <div
           id="carouselExampleIndicators"
