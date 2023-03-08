@@ -8,6 +8,7 @@ import Skills from "./components/skills.component";
 import Welcome from "./components/welcome.component";
 import Grid from "./components/grid.component";
 import Proyecto from "./components/proyectos.component";
+import Footer from "./components/footer.component";
 
 
 class App extends Component {
@@ -16,12 +17,10 @@ class App extends Component {
       <div className="w-100">
           <NavHome />
           <Welcome />
-          <Skills />
           <Grid />
-          <br/>
+          <Skills />
           <Proyecto />
-          <br/>
-          
+          <Footer/>
       </div>
     );
   }

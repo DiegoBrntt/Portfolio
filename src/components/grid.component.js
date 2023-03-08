@@ -23,10 +23,11 @@ class Grid extends Component {
   render() {
     return (
       <>
+        <h1 className="text-center text-decoration-underline bg-light m-0 p-2">UN POCO DE MI</h1>
         <div className="bg-light w-100">
           <div className="row text-center bg-light">
             <div className="col">
-              <div className="card border-0 bg-light">
+              <div className="card border-0 bg-light p-2">
                 <div className="text-center">
                   <img
                     src={idea}

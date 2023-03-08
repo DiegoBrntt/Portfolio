@@ -22,17 +22,17 @@ class Proyectos extends Component {
   render() {
     return (
       <>
-        <h3 className="text-center text-decoration-underline">PROYECTOS</h3>
-        <br />
-        <div className="card-group">
-          <div className="card">
+        <h1 className="text-center text-decoration-underline bg-light m-0">PROYECTOS</h1>
+        
+        <div className="card-group bg-light m-0">
+          <div className="card m-2 border border-1 border-dark">
             <div className="row text-center">
-              <div className="col">
+              <div className="col ">
                 <img src={C} className="card-img-top w-50" alt="C" />
               </div>
             </div>
 
-            <div className="card-body text-center">
+            <div className="card-body text-center bg-dark text-white border-top border-1 border-dark">
               <h5 className="card-title">Compilador PL0</h5>
               <p className="card-text">
                 Compilador del lenguaje PL0 desarrollado en C.
@@ -40,6 +40,7 @@ class Proyectos extends Component {
               <a
                 href="https://github.com/DiegoBrntt/Compilador_PL0"
                 className="btn btn-primary"
+                target="_BLANK" rel="noopener noreferrer"
               >
                 REPOSITORIO
               </a>
@@ -48,13 +49,13 @@ class Proyectos extends Component {
               </p>
             </div>
           </div>
-          <div className="card">
+          <div className="card m-2 border border-1 border-dark">
             <div className="row text-center">
               <div className="col">
                 <img src={CS} className="card-img-top w-50" alt="C" />
               </div>
             </div>
-            <div className="card-body text-center">
+            <div className="card-body text-center border-top border-1 border-dark bg-dark text-white">
               <h5 className="card-title">Defensa del castillo</h5>
               <p className="card-text">
                 Videojuego desarrollado en Unity3D (C#) del estilo tower
@@ -63,12 +64,14 @@ class Proyectos extends Component {
               <a
                 href="https://github.com/DiegoBrntt/Defende_el_Castillo"
                 className="btn btn-primary mx-1"
+                target="_BLANK" rel="noopener noreferrer"
               >
                 REPOSITORIO
               </a>
               <a
                 href="https://drive.google.com/drive/u/0/folders/1vEsoKeiTflHPZAnoAI9la9NxNTyIxlrB"
                 className="btn btn-success mx-1"
+                target="_BLANK" rel="noopener noreferrer"
               >
                 JUEGO
               </a>
@@ -77,14 +80,14 @@ class Proyectos extends Component {
               </p>
             </div>
           </div>
-          <div className="card">
+          <div className="card m-2 border border-1 border-dark">
             <div className="row text-center">
               <div className="col">
                 <img src={JAVA} className="card-img-top w-50" alt="JAVA" />
               </div>
             </div>
 
-            <div className="card-body text-center">
+            <div className="card-body text-center border-top bg-dark text-white border-1 border-dark">
               <h5 className="card-title">Control de asaltos bancarios</h5>
               <p className="card-text">
                 Proyecto de control policial en entidades bancarias.
@@ -93,6 +96,7 @@ class Proyectos extends Component {
               <a
                 href="https://github.com/DiegoBrntt/Control_Policial_SpringMVC_Hibernate"
                 className="btn btn-primary mx-1"
+                target="_BLANK" rel="noopener noreferrer"
               >
                 REPOSITORIO
               </a>
@@ -111,16 +115,16 @@ class Proyectos extends Component {
                 aria-labelledby="headingOne"
                 data-bs-parent="#accordionProyectos"
               >
-                <div className="accordion-body">
-                <div className="card-group">
-                  <div className="card">
+                <div className="accordion-body bg-light">
+                <div className="card-group bg-light">
+                  <div className="card m-2 border border-1 border-dark">
                     <div className="row text-center">
                       <div className="col">
                         <img src={C} className="card-img-top w-50" alt="C" />
                       </div>
                     </div>
 
-                    <div className="card-body text-center">
+                    <div className="card-body text-center border-top bg-dark text-white border-1 border-dark">
                       <h5 className="card-title">Estructuras de datos</h5>
                       <p className="card-text">
                         Operaciones CRUD en diferentes estructuras de datos desarrolladas en C.
@@ -130,6 +134,7 @@ class Proyectos extends Component {
                       <a
                         href="https://github.com/DiegoBrntt/Estructuras-de-datos"
                         className="btn btn-primary"
+                        target="_BLANK" rel="noopener noreferrer"
                       >
                         REPOSITORIO
                       </a>
@@ -140,13 +145,13 @@ class Proyectos extends Component {
                       </p>
                     </div>
                   </div>
-                  <div className="card">
+                  <div className="card m-2 border border-1 border-dark">
                     <div className="row text-center">
                       <div className="col">
-                        <img src={NASM} className="card-img-top m-9w-80" alt="NASM" />
+                        <img src={NASM} className="card-img-top m-9" alt="NASM" />
                       </div>
                     </div>
-                    <div className="card-body text-center">
+                    <div className="card-body text-center border border-1 border-dark bg-dark text-white">
                       <h5 className="card-title">Ejercicios de NASM</h5>
                       <p className="card-text">
                         Ejercicios básicos resueltos en NASM.
@@ -154,6 +159,7 @@ class Proyectos extends Component {
                       <a
                         href="https://github.com/DiegoBrntt/Ejercicios-NASM"
                         className="btn btn-primary"
+                        target="_BLANK" rel="noopener noreferrer"
                       >
                         REPOSITORIO
                       </a>
@@ -164,7 +170,7 @@ class Proyectos extends Component {
                       </p>
                     </div>
                   </div>
-                  <div className="card">
+                  <div className="card m-2 border border-1 border-dark">
                     <div className="row text-center">
                       <div className="col">
                         <img
@@ -175,7 +181,7 @@ class Proyectos extends Component {
                       </div>
                     </div>
 
-                    <div className="card-body text-center">
+                    <div className="card-body text-center border-top bg-dark text-white border-1 border-dark">
                       <h5 className="card-title">
                         Interprete de LISP
                       </h5>
@@ -185,6 +191,7 @@ class Proyectos extends Component {
                       <a
                         href="https://github.com/DiegoBrntt/Interprete-LISP"
                         className="btn btn-primary mx-1"
+                        target="_BLANK" rel="noopener noreferrer"
                       >
                         REPOSITORIO
                       </a>
@@ -198,7 +205,7 @@ class Proyectos extends Component {
                   </div>
                 </div>
               </div>
-              <h2 className="accordion-header text-center" id="headingOne">
+              <h2 className="accordion-header text-center bg-light" id="headingOne">
                 <button
                   className="btn btn-lg btn-secondary m-2"
                   type="button"

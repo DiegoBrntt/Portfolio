@@ -4,9 +4,7 @@ class Skills extends Component {
   render() {
     return (
       <div>
-        <h1 className="text-center text-decoration-underline">HABILIDADES</h1>
-        <br/>
-        <br/>
+        <h1 className="text-center text-decoration-underline m-0 p-2">HABILIDADES</h1>
         <div className="accordion" id="accordionExample">
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingOne">
