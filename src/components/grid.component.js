@@ -60,6 +60,25 @@ class Grid extends Component {
                 </div>
               </div>
             </div>
+            <div className="col">
+                      <div className="card border-0 bg-light">
+                        <div className="text-center">
+                          <img
+                            src={gaming}
+                            className="card-img-top"
+                            alt="gaming"
+                          />
+                        </div>
+
+                        <div className="card-body">
+                          <p className="card-text">
+                            Experiencia en el desarrollo y programación de
+                            videojuegos con Unity3D (C#). En generos de tower
+                            defense y space shooter.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
           </div>
           <div className="accordion bg-light" id="accordionGrid">
             <div className="accordion-item border-0">
@@ -79,7 +98,7 @@ class Grid extends Component {
 
                         <div className="card-body">
                           <p className="card-text">
-                            Mayormente orientado al area de Backend, con
+                            Mayormente orientado al área de Backend, con
                             conocimientos basicos de creación de Base de datos y
                             normalización. Tanto en SQL y NoSQL.
                           </p>
@@ -103,27 +122,6 @@ class Grid extends Component {
                             y MySQL, Sequelize, Express, React, Node de los
                             cuales tengo experiencia. De facil adaptaciónn a
                             nuevos stacks.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row text-center">
-                    <div className="col">
-                      <div className="card border-0 bg-light">
-                        <div className="text-center">
-                          <img
-                            src={gaming}
-                            className="card-img-top"
-                            alt="gaming"
-                          />
-                        </div>
-
-                        <div className="card-body">
-                          <p className="card-text">
-                            Experiencia en el desarrollo y programación de
-                            videojuegos con Unity3D (C#). En generos de tower
-                            defense y space shooter.
                           </p>
                         </div>
                       </div>

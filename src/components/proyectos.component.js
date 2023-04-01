@@ -44,9 +44,6 @@ class Proyectos extends Component {
               >
                 REPOSITORIO
               </a>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
             </div>
           </div>
           <div className="card m-2 border border-1 border-dark">
@@ -75,9 +72,6 @@ class Proyectos extends Component {
               >
                 JUEGO
               </a>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
             </div>
           </div>
           <div className="card m-2 border border-1 border-dark">
@@ -91,7 +85,7 @@ class Proyectos extends Component {
               <h5 className="card-title">Control de asaltos bancarios</h5>
               <p className="card-text">
                 Proyecto de control policial en entidades bancarias.
-                Desarrollado en JAVA utilizando Spring MVC y Hibernate.
+                Desarrollado en JAVA 7 utilizando los frameworks Spring MVC y Hibernate.
               </p>
               <a
                 href="https://github.com/DiegoBrntt/Control_Policial_SpringMVC_Hibernate"
@@ -100,9 +94,6 @@ class Proyectos extends Component {
               >
                 REPOSITORIO
               </a>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
             </div>
           </div>
         </div>
@@ -138,11 +129,6 @@ class Proyectos extends Component {
                       >
                         REPOSITORIO
                       </a>
-                      <p className="card-text">
-                        <small className="text-muted">
-                          Last updated 3 mins ago
-                        </small>
-                      </p>
                     </div>
                   </div>
                   <div className="card m-2 border border-1 border-dark">
@@ -163,11 +149,6 @@ class Proyectos extends Component {
                       >
                         REPOSITORIO
                       </a>
-                      <p className="card-text">
-                        <small className="text-muted">
-                          Last updated 3 mins ago
-                        </small>
-                      </p>
                     </div>
                   </div>
                   <div className="card m-2 border border-1 border-dark">
@@ -195,11 +176,6 @@ class Proyectos extends Component {
                       >
                         REPOSITORIO
                       </a>
-                      <p className="card-text">
-                        <small className="text-muted">
-                          Last updated 3 mins ago
-                        </small>
-                      </p>
                     </div>
                   </div>
                   </div>
