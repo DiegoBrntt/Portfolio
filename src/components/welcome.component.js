@@ -41,14 +41,14 @@ class Welcome extends Component {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src={laptop} className="d-block w-100" alt="laptop" />
+              <img src={laptop} className="d-block w-100 h-50" alt="laptop" />
             </div>
             <div className="carousel-item">
-              <img src={surf} className="d-block w-100" alt="surf" />
+              <img src={surf} className="d-block w-100  h-50" alt="surf" />
             </div>
             <div className="carousel-item">
               <div className="row bg-primary">
-                <img src={porta} className="d-block w-100" alt="portafolio" />
+                <img src={porta} className="d-block w-100 h-50" alt="portafolio" />
               </div>
             </div>
           </div>
